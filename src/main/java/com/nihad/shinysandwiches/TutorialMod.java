@@ -27,6 +27,7 @@ public class TutorialMod
 
     public TutorialMod()
     {
+        //test
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         modEventBus.addListener(this::commonSetup);
         // Register ourselves for server and other game events we are interested in
